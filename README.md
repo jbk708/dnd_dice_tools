@@ -1,3 +1,7 @@
+## Requirements:
+- Python ^3.9
+- Poetry Package Manager --> https://python-poetry.org/docs/#installing-with-the-official-installer
+
 ## Installation:
 
 1. Clone git repo into directory of choice
