@@ -1,6 +1,6 @@
 ## Requirements:
 - Python ^3.9
-- Poetry Package Manager --> https://python-poetry.org/docs/#installing-with-the-official-installer
+- Poetry Package Manager --> [Link to Install Page](https://python-poetry.org/docs/#installing-with-the-official-installer)
 
 ## Installation:
 
@@ -13,11 +13,15 @@
 single-die-odds: Gives the average number of rolls needed to hit a target number, and the odds of hitting a number or set of numbers you're trying to avoid.
 
 Args:
+```
  --target TARGET 
  --max_num MAX_NUM 
  [--forbidden_numbers [FORBIDDEN_NUMBERS ...]]
+```
+## Code Testing, Formatting, and Linting Standards
 
-## Code Formatting and Linting Standards
+To run tests run [pytest](https://docs.pytest.org/en/7.4.x/) from the root folder:
+
 
 For code formatting, simply run [yapf](https://github.com/google/yapf) from the root folder:
 
