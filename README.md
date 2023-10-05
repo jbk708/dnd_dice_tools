@@ -6,7 +6,12 @@
 4. Run your module of choice with `poetry run {module}`
 
 ## Modules
+single-die-odds: Gives the average number of rolls needed to hit a target number, and the odds of hitting a number or set of numbers you're trying to avoid.
 
+Args:
+ --target TARGET 
+ --max_num MAX_NUM 
+ [--forbidden_numbers [FORBIDDEN_NUMBERS ...]]
 
 ## Code Formatting and Linting Standards
 
