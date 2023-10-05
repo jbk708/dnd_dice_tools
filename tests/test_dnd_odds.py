@@ -1,5 +1,4 @@
 """test_dnd_odds.py"""
-import pytest
 from dnd_odds.odds import valid_combinations, probability_of_combo, expected_rolls, probability_of_one_in_expected_rolls
 
 
